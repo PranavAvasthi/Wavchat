@@ -37,7 +37,7 @@ const ScreenWrapper = ({
       }}
       source={require("@/assets/images/bg-pattern.png")}
     >
-      <View style={[{ paddingTop, paddingBottom }, style]}>
+      <View style={[{ paddingTop, paddingBottom, flex: 1 }, style]}>
         <StatusBar barStyle="light-content" backgroundColor="transparent" />
         {children}
       </View>
